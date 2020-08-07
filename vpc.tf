@@ -1,5 +1,6 @@
 module "vpc" {
-  source = "terraform-aws-modules/vpc/aws"
+  source  = "app.terraform.io/gyyoo-training/vpc/aws"
+  version = "2.44.0"
 
   name = "my-vpc"
   cidr = "10.0.0.0/16"
